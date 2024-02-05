@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "purchase_histories",
+  "info": {
+    "singularName": "purchase-history",
+    "pluralName": "purchase-histories",
+    "displayName": "PurchaseHistory",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "userId": {
+      "type": "integer"
+    },
+    "itemId": {
+      "type": "integer"
+    },
+    "quantity": {
+      "type": "integer"
+    },
+    "purchaseDatetime": {
+      "type": "datetime"
+    }
+  }
+}
